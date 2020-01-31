@@ -29,5 +29,7 @@ Start the nginx server:
 # Usage
 Open localhost in Internet Edge (Chromium-based browsers and Firefox doesn't work for some reason) and observe.
 
+![Screenshot of the game](/assets/screenshot.png)
+
 # License 
 Licensed with the WTFPL license, meaning you can do whatever the hell you want with this thing I don't even care.
