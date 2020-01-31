@@ -1,16 +1,15 @@
 var game;
 game = new Phaser.Game(800, 600, Phaser.AUTO, '', {preload: preload, create: create, update: update});
 function preload() {
-    game.load.spritesheet('sayori', 'sayori.png');
-    game.load.spritesheet('natsuki', 'natsuki.jpg');
-    game.load.spritesheet('ball', 'star.png');
-    game.load()
+    game.load.spritesheet('natsuki', 'assets/natsuki.jpg');
+    game.load.spritesheet('ball', 'assets/star.png');
 }
 var girls, sayori, natsuki, baller, ballGroup, consoleCommands, score, realScore = 0;
 function create() {
     game.physics.startSystem(Phaser.Physics.ARCADE);
     girls = game.add.group();
     girls.enableBody = true;
+    girls.visible = true;
     //sayori = girls.create(0, 0, 'sayori');
     natsuki = girls.create(50, 150, 'natsuki');
     natsuki.body.immovable = true;
