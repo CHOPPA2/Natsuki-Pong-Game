@@ -27,7 +27,7 @@ Start the nginx server:
 ``` systemctl start nginx ```
 
 # Usage
-Open localhost in Internet Edge (Chromium-based browsers and Firefox doesn't work for some reason) and observe.
+Open localhost in Internet Edge (Firefox doesn't work for some reason) and observe.
 
 ![Screenshot of the game](/assets/screenshot.png)
 
